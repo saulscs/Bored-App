@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40184BE12734AA4500F361EF /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40184BE02734AA4500F361EF /* TextField.swift */; };
+		402C27022734CE5600C2462D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C27012734CE5600C2462D /* String.swift */; };
+		402C270E2734D24A00C2462D /* BoretAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C270D2734D24A00C2462D /* BoretAppTests.swift */; };
+		402C27142734D27800C2462D /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F1E587273484FF00E4C293 /* Classes.swift */; };
+		4031752C27354D4D0079BCE2 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4031752A27354D4D0079BCE2 /* ErrorViewController.swift */; };
+		4031752D27354D4D0079BCE2 /* ErrorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4031752B27354D4D0079BCE2 /* ErrorViewController.xib */; };
+		4031753427355D890079BCE2 /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4031753327355D890079BCE2 /* ActivityModel.swift */; };
+		404E4747273325E200F90829 /* terms in Resources */ = {isa = PBXBuildFile; fileRef = 404E4746273325E200F90829 /* terms */; };
+		407DD4A5273312CA005E274E /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407DD4A3273312CA005E274E /* TermsViewController.swift */; };
+		407DD4A6273312CA005E274E /* TermsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 407DD4A4273312CA005E274E /* TermsViewController.xib */; };
+		407DD4A927331340005E274E /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407DD4A82733133F005E274E /* Services.swift */; };
+		407DD4AC27331397005E274E /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407DD4AB27331397005E274E /* Structs.swift */; };
+		40F4885D27342ED200EFAA70 /* RandomServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F4885C27342ED200EFAA70 /* RandomServices.swift */; };
+		40F4885F2734300200EFAA70 /* TypeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F4885E2734300200EFAA70 /* TypeServices.swift */; };
+		40F48863273443E700EFAA70 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F48861273443E700EFAA70 /* ActivityViewController.swift */; };
+		40F48864273443E700EFAA70 /* ActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F48862273443E700EFAA70 /* ActivityViewController.xib */; };
+		9D1B064FA576C8BE37E75025 /* Pods_BoretApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0AA62B4C145D0358B1E2A8 /* Pods_BoretApp.framework */; };
+		F73D36552734413600AC9C1E /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D36532734413600AC9C1E /* CategoriesViewController.swift */; };
+		F73D36562734413600AC9C1E /* CategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73D36542734413600AC9C1E /* CategoriesViewController.xib */; };
+		F74C65BB2733262800549E05 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C65B92733262800549E05 /* InitialViewController.swift */; };
+		F74C65BC2733262800549E05 /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74C65BA2733262800549E05 /* InitialViewController.xib */; };
+		F7BE3E412733103A003ED2EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BE3E402733103A003ED2EB /* AppDelegate.swift */; };
+		F7BE3E432733103A003ED2EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BE3E422733103A003ED2EB /* SceneDelegate.swift */; };
+		F7BE3E4A27331042003ED2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BE3E4927331042003ED2EB /* Assets.xcassets */; };
+		F7BE3E4D27331042003ED2EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BE3E4B27331042003ED2EB /* LaunchScreen.storyboard */; };
+		F7F1E58527347ED500E4C293 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F1E58427347ED500E4C293 /* TabBar.swift */; };
+		F7F1E588273484FF00E4C293 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F1E587273484FF00E4C293 /* Classes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		402C270F2734D24A00C2462D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7BE3E352733103A003ED2EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7BE3E3C2733103A003ED2EB;
+			remoteInfo = BoretApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40184BE02734AA4500F361EF /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		402C27012734CE5600C2462D /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		402C270B2734D24A00C2462D /* BoretAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoretAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		402C270D2734D24A00C2462D /* BoretAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoretAppTests.swift; sourceTree = "<group>"; };
+		4031752A27354D4D0079BCE2 /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		4031752B27354D4D0079BCE2 /* ErrorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorViewController.xib; sourceTree = "<group>"; };
+		4031753327355D890079BCE2 /* ActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
+		404E4746273325E200F90829 /* terms */ = {isa = PBXFileReference; explicitFileType = text; path = terms; sourceTree = "<group>"; };
+		407DD49F2733128E005E274E /* InitialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
+		407DD4A3273312CA005E274E /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		407DD4A4273312CA005E274E /* TermsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TermsViewController.xib; sourceTree = "<group>"; };
+		407DD4A82733133F005E274E /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		407DD4AB27331397005E274E /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		40F4885C27342ED200EFAA70 /* RandomServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomServices.swift; sourceTree = "<group>"; };
+		40F4885E2734300200EFAA70 /* TypeServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeServices.swift; sourceTree = "<group>"; };
+		40F48861273443E700EFAA70 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		40F48862273443E700EFAA70 /* ActivityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityViewController.xib; sourceTree = "<group>"; };
+		81FC318954A6098716D26FA9 /* Pods-BoretApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoretApp.release.xcconfig"; path = "Target Support Files/Pods-BoretApp/Pods-BoretApp.release.xcconfig"; sourceTree = "<group>"; };
+		97A9705529C37D2B2DF6772F /* Pods-BoretApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoretApp.debug.xcconfig"; path = "Target Support Files/Pods-BoretApp/Pods-BoretApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9C0AA62B4C145D0358B1E2A8 /* Pods_BoretApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoretApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73D36532734413600AC9C1E /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		F73D36542734413600AC9C1E /* CategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesViewController.xib; sourceTree = "<group>"; };
+		F74C65B92733262800549E05 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		F74C65BA2733262800549E05 /* InitialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
+		F7BE3E3D2733103A003ED2EB /* BoretApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoretApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7BE3E402733103A003ED2EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7BE3E422733103A003ED2EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F7BE3E4927331042003ED2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7BE3E4C27331042003ED2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7BE3E4E27331042003ED2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F1E58427347ED500E4C293 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		F7F1E587273484FF00E4C293 /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		402C27082734D24A00C2462D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BE3E3A2733103A003ED2EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1B064FA576C8BE37E75025 /* Pods_BoretApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0780FD9AA144FD99FCFB6EBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				402C27032734D15700C2462D /* Tests */,
+				9C0AA62B4C145D0358B1E2A8 /* Pods_BoretApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40184BDF2734AA2B00F361EF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				40184BE02734AA4500F361EF /* TextField.swift */,
+				402C27012734CE5600C2462D /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		402C27032734D15700C2462D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		402C270C2734D24A00C2462D /* BoretAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				402C270D2734D24A00C2462D /* BoretAppTests.swift */,
+			);
+			path = BoretAppTests;
+			sourceTree = "<group>";
+		};
+		4031752927354D0A0079BCE2 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				4031752A27354D4D0079BCE2 /* ErrorViewController.swift */,
+				4031752B27354D4D0079BCE2 /* ErrorViewController.xib */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		407DD49A27331190005E274E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7BE3E4927331042003ED2EB /* Assets.xcassets */,
+				F7BE3E4E27331042003ED2EB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		407DD49B273311D6005E274E /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F7BE3E422733103A003ED2EB /* SceneDelegate.swift */,
+				F7BE3E402733103A003ED2EB /* AppDelegate.swift */,
+				F7BE3E4B27331042003ED2EB /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		407DD49C27331273005E274E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7F1E58327347EC600E4C293 /* TabBar */,
+				F73D36522734410B00AC9C1E /* Categories */,
+				40F48860273443B100EFAA70 /* Antivity */,
+				407DD49D2733127D005E274E /* Initial */,
+				4031752927354D0A0079BCE2 /* Error */,
+				407DD4A2273312B0005E274E /* Terms */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		407DD49D2733127D005E274E /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				F74C65B92733262800549E05 /* InitialViewController.swift */,
+				F74C65BA2733262800549E05 /* InitialViewController.xib */,
+			);
+			path = Initial;
+			sourceTree = "<group>";
+		};
+		407DD4A2273312B0005E274E /* Terms */ = {
+			isa = PBXGroup;
+			children = (
+				407DD4A3273312CA005E274E /* TermsViewController.swift */,
+				407DD4A4273312CA005E274E /* TermsViewController.xib */,
+				404E4746273325E200F90829 /* terms */,
+			);
+			path = Terms;
+			sourceTree = "<group>";
+		};
+		407DD4A7273312E4005E274E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				407DD4A82733133F005E274E /* Services.swift */,
+				40F4885C27342ED200EFAA70 /* RandomServices.swift */,
+				40F4885E2734300200EFAA70 /* TypeServices.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		407DD4AA2733134A005E274E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				407DD4AB27331397005E274E /* Structs.swift */,
+				F7F1E587273484FF00E4C293 /* Classes.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		40F48860273443B100EFAA70 /* Antivity */ = {
+			isa = PBXGroup;
+			children = (
+				40F48861273443E700EFAA70 /* ActivityViewController.swift */,
+				40F48862273443E700EFAA70 /* ActivityViewController.xib */,
+				4031753327355D890079BCE2 /* ActivityModel.swift */,
+			);
+			path = Antivity;
+			sourceTree = "<group>";
+		};
+		C0D6C676859E76FD4504B59D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97A9705529C37D2B2DF6772F /* Pods-BoretApp.debug.xcconfig */,
+				81FC318954A6098716D26FA9 /* Pods-BoretApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F73D36522734410B00AC9C1E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F73D36532734413600AC9C1E /* CategoriesViewController.swift */,
+				F73D36542734413600AC9C1E /* CategoriesViewController.xib */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F7885774273334F800A654ED /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				407DD49F2733128E005E274E /* InitialViewController.xib */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		F7BE3E342733103A003ED2EB = {
+			isa = PBXGroup;
+			children = (
+				F7BE3E3F2733103A003ED2EB /* BoretApp */,
+				402C270C2734D24A00C2462D /* BoretAppTests */,
+				F7BE3E3E2733103A003ED2EB /* Products */,
+				C0D6C676859E76FD4504B59D /* Pods */,
+				0780FD9AA144FD99FCFB6EBE /* Frameworks */,
+				F7885774273334F800A654ED /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		F7BE3E3E2733103A003ED2EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7BE3E3D2733103A003ED2EB /* BoretApp.app */,
+				402C270B2734D24A00C2462D /* BoretAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7BE3E3F2733103A003ED2EB /* BoretApp */ = {
+			isa = PBXGroup;
+			children = (
+				40184BDF2734AA2B00F361EF /* Extension */,
+				407DD4AA2733134A005E274E /* Helper */,
+				407DD4A7273312E4005E274E /* Utility */,
+				407DD49C27331273005E274E /* Controllers */,
+				407DD49B273311D6005E274E /* SupportFiles */,
+				407DD49A27331190005E274E /* Resources */,
+			);
+			path = BoretApp;
+			sourceTree = "<group>";
+		};
+		F7F1E58327347EC600E4C293 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F7F1E58427347ED500E4C293 /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		402C270A2734D24A00C2462D /* BoretAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402C27112734D24A00C2462D /* Build configuration list for PBXNativeTarget "BoretAppTests" */;
+			buildPhases = (
+				402C27072734D24A00C2462D /* Sources */,
+				402C27082734D24A00C2462D /* Frameworks */,
+				402C27092734D24A00C2462D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				402C27102734D24A00C2462D /* PBXTargetDependency */,
+			);
+			name = BoretAppTests;
+			productName = BoretAppTests;
+			productReference = 402C270B2734D24A00C2462D /* BoretAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7BE3E3C2733103A003ED2EB /* BoretApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7BE3E5127331042003ED2EB /* Build configuration list for PBXNativeTarget "BoretApp" */;
+			buildPhases = (
+				317BCE85C83DBC5000FF1C60 /* [CP] Check Pods Manifest.lock */,
+				F7BE3E392733103A003ED2EB /* Sources */,
+				F7BE3E3A2733103A003ED2EB /* Frameworks */,
+				F7BE3E3B2733103A003ED2EB /* Resources */,
+				98B93F7E67297F195CAAC3E9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoretApp;
+			productName = BoretApp;
+			productReference = F7BE3E3D2733103A003ED2EB /* BoretApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7BE3E352733103A003ED2EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					402C270A2734D24A00C2462D = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F7BE3E3C2733103A003ED2EB;
+					};
+					F7BE3E3C2733103A003ED2EB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F7BE3E382733103A003ED2EB /* Build configuration list for PBXProject "BoretApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7BE3E342733103A003ED2EB;
+			productRefGroup = F7BE3E3E2733103A003ED2EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7BE3E3C2733103A003ED2EB /* BoretApp */,
+				402C270A2734D24A00C2462D /* BoretAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		402C27092734D24A00C2462D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BE3E3B2733103A003ED2EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BE3E4D27331042003ED2EB /* LaunchScreen.storyboard in Resources */,
+				4031752D27354D4D0079BCE2 /* ErrorViewController.xib in Resources */,
+				F7BE3E4A27331042003ED2EB /* Assets.xcassets in Resources */,
+				F73D36562734413600AC9C1E /* CategoriesViewController.xib in Resources */,
+				407DD4A6273312CA005E274E /* TermsViewController.xib in Resources */,
+				40F48864273443E700EFAA70 /* ActivityViewController.xib in Resources */,
+				F74C65BC2733262800549E05 /* InitialViewController.xib in Resources */,
+				404E4747273325E200F90829 /* terms in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		317BCE85C83DBC5000FF1C60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoretApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98B93F7E67297F195CAAC3E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoretApp/Pods-BoretApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoretApp/Pods-BoretApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoretApp/Pods-BoretApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		402C27072734D24A00C2462D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402C27142734D27800C2462D /* Classes.swift in Sources */,
+				402C270E2734D24A00C2462D /* BoretAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BE3E392733103A003ED2EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407DD4AC27331397005E274E /* Structs.swift in Sources */,
+				407DD4A927331340005E274E /* Services.swift in Sources */,
+				F7BE3E412733103A003ED2EB /* AppDelegate.swift in Sources */,
+				40F4885F2734300200EFAA70 /* TypeServices.swift in Sources */,
+				402C27022734CE5600C2462D /* String.swift in Sources */,
+				40F48863273443E700EFAA70 /* ActivityViewController.swift in Sources */,
+				40184BE12734AA4500F361EF /* TextField.swift in Sources */,
+				4031752C27354D4D0079BCE2 /* ErrorViewController.swift in Sources */,
+				F74C65BB2733262800549E05 /* InitialViewController.swift in Sources */,
+				407DD4A5273312CA005E274E /* TermsViewController.swift in Sources */,
+				F73D36552734413600AC9C1E /* CategoriesViewController.swift in Sources */,
+				F7F1E588273484FF00E4C293 /* Classes.swift in Sources */,
+				4031753427355D890079BCE2 /* ActivityModel.swift in Sources */,
+				40F4885D27342ED200EFAA70 /* RandomServices.swift in Sources */,
+				F7BE3E432733103A003ED2EB /* SceneDelegate.swift in Sources */,
+				F7F1E58527347ED500E4C293 /* TabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		402C27102734D24A00C2462D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7BE3E3C2733103A003ED2EB /* BoretApp */;
+			targetProxy = 402C270F2734D24A00C2462D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7BE3E4B27331042003ED2EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7BE3E4C27331042003ED2EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		402C27122734D24A00C2462D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CL3UD6U437;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alkemy.BoretAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoretApp.app/BoretApp";
+			};
+			name = Debug;
+		};
+		402C27132734D24A00C2462D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CL3UD6U437;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alkemy.BoretAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoretApp.app/BoretApp";
+			};
+			name = Release;
+		};
+		F7BE3E4F27331042003ED2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7BE3E5027331042003ED2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7BE3E5227331042003ED2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A9705529C37D2B2DF6772F /* Pods-BoretApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL3UD6U437;
+				INFOPLIST_FILE = BoretApp/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alkemy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7BE3E5327331042003ED2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FC318954A6098716D26FA9 /* Pods-BoretApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL3UD6U437;
+				INFOPLIST_FILE = BoretApp/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alkemy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		402C27112734D24A00C2462D /* Build configuration list for PBXNativeTarget "BoretAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402C27122734D24A00C2462D /* Debug */,
+				402C27132734D24A00C2462D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7BE3E382733103A003ED2EB /* Build configuration list for PBXProject "BoretApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BE3E4F27331042003ED2EB /* Debug */,
+				F7BE3E5027331042003ED2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7BE3E5127331042003ED2EB /* Build configuration list for PBXNativeTarget "BoretApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BE3E5227331042003ED2EB /* Debug */,
+				F7BE3E5327331042003ED2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7BE3E352733103A003ED2EB /* Project object */;
+}
